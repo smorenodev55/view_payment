@@ -12,4 +12,5 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="payment_cards">PAYMENT CARDS</string>
     <string name="error_loading_paymets">Error downloading payments</string>
+    <string name="action_logout">Logout</string>
 </resources>

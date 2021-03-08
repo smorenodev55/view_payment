@@ -5,8 +5,8 @@ import com.google.gson.annotations.SerializedName
 data class ApiDataPayment(
 
     @SerializedName("number")
-    val update: String? = null,
+    val number: String? = null,
 
     @SerializedName("type")
-    val suffix: String? = null
+    val type: String? = null
 )

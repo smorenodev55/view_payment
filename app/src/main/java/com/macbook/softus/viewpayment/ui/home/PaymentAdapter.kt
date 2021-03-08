@@ -16,7 +16,8 @@ class PaymentAdapter(
     inner class PaymentViewHolder(private val binding: ItemPaymentBinding):
     BaseViewHolder<ApiDataPayment>(binding.root){
         override fun bind(item: ApiDataPayment, position: Int) = with(binding)  {
-
+            txtNumberCard.text = item.number
+            txtCard.text = item.type
         }
     }
 
